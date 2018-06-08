@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+
+<menu id="root-menu" label="Openbox 3">
+  <item label="Terminator">
+    <action name="Execute">
+      <execute>terminator</execute>
+    </action>
+  </item>
+  <item label="Firefox">
+    <action name="Execute">
+      <execute>firefox</execute>
+    </action>
+  </item>
+  <item label="Thunar">
+    <action name="Execute">
+      <execute>Thunar /home/rose</execute>
+    </action>
+  </item>
+  <item label="Geany">
+    <action name="Execute">
+      <execute>geany</execute>
+    </action>
+  </item>
+  <item label="Virtualbox">
+    <action name="Execute">
+      <execute>virtualbox</execute>
+    </action>
+  </item>
+  <item label="Reconfigure">
+    <action name="Reconfigure" />
+  </item>
+  <item label="Exit">
+    <action name="Exit">
+      <prompt>no</prompt>
+    </action>
+  </item>
+</menu>
+
+</openbox_menu>
