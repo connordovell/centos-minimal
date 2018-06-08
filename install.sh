@@ -38,8 +38,6 @@ then
   yum install -y epel-release
   yum localinstall --nogpgcheck -y rpms/nux-dextop.rpm
   yum localinstall --nogpgcheck -y rpms/rpmfusion-free.rpm
-  # Package setup
-  yum install -y zsnes
 else
   yum install -y virt-viewer
 fi
